@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    {{>navbar}}
+
+{{!-- hero section start --}}
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                    <h1>WE WILL HELP YOU TO</h1>
+                    <h1>GROW YOUR BUISNESS</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, quo! Dolor ex eaque, sed nulla quos ducimus? Accusantium saepe ipsam, at illo placeat, sit cum ut velit deleniti quas culpa!</p>
+                    <button class="btn-style btn-primary">Read More</button>
+                </div>
+                {{!-- right  --}}
+                <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                    <figure>
+                        <img src="images/growth.png" alt="herosection_image">
+                    </figure>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{!-- hero section end --}}
+    {{!-- about us start --}}
+    {{>about}}
+    {{!-- about us ends --}}
+
+    {{!-- services us start --}}
+    {{>services}}
+    {{!-- services us ends --}}
+
+    {{!-- maps us start --}}
+    {{>maps}}
+    {{!-- maps us ends --}}
+
+    {{!-- contact us start --}}
+    {{>contact}}
+    {{!-- contact us ends --}}
+
+    {{!-- signin us start --}}
+    {{!-- {{>register}} --}}
+    {{!-- signin us ends --}}
+    
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+
+</html>
